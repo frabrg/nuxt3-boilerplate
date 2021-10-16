@@ -1,0 +1,38 @@
+/*
+* Tailwind .container class
+*/
+
+.container {
+    @apply p-6;
+    @apply h-full;
+    @apply max-w-screen-xl;
+    @apply mx-auto;
+
+    transition: padding 0.3s ease-in-out;
+
+    // Hide scrollbar IE and Edge
+    -ms-overflow-style: none;
+
+    // Hide scrollbar Firefox
+    scrollbar-width: none;
+}
+
+// Hide scrollbar for Chrome, Safari and Opera
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*
+    * Transitions
+    */
+
+.fade-enter-active,
+.fade-leave-active {
+    @apply transition-opacity;
+    @apply duration-200;
+}
+
+.fade-enter,
+.fade-leave-active {
+    @apply opacity-0;
+}

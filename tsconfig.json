@@ -6,8 +6,11 @@
     "strict": false,
     "allowJs": true,
     "resolveJsonModule": true,
-    "types": [
-      "node"
-    ]
-  }
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules", ".nuxt", ".output", "postcss.config.js", "stylelint.config.js", "tailwind.config.js"]
 }

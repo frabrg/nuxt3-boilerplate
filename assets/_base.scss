@@ -1,0 +1,53 @@
+html,
+body,
+#__nuxt,
+#__layout {
+	@apply h-screen;
+	@apply overscroll-none;
+}
+
+h1 {
+	@apply font-bold;
+	@apply text-lg;
+	@apply leading-lg;
+	@apply mb-6;
+}
+
+h2 {
+	@apply font-bold;
+	@apply text-md;
+	@apply leading-md;
+	@apply mb-6;
+}
+
+h3 {
+	@apply font-bold;
+	@apply text-md;
+	@apply leading-sm;
+	@apply my-4;
+}
+
+h4 {
+	@apply font-bold;
+	@apply text-sm;
+	@apply leading-sm;
+	@apply my-3;
+}
+
+p {
+	@apply text-sm;
+	@apply leading-sm;
+}
+
+input {
+	@apply w-full;
+}
+
+hr {
+	@apply border-gray-100;
+	@apply my-4;
+}
+
+button:focus {
+	@apply outline-none;
+}
