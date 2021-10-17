@@ -4,3 +4,6 @@ node_modules
 nuxt.d.ts
 .output
 .steps.txt
+
+# Local Netlify folder
+.netlify
