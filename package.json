@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@heroicons/vue": "^1.0.4",
+    "@nuxt/kit": "^0.6.4",
+    "@nuxt/kit-edge": "^3.0.0-27238235.a1bcc53",
     "node-sass": "^4.14.1",
     "sass": "^1.43.2",
     "sass-loader": "^10.1.1"
